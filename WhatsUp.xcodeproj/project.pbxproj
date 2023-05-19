@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B474D7B62A170A82003248D7 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474D7B52A170A82003248D7 /* SignupView.swift */; };
+		B474D7B92A170D39003248D7 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474D7B82A170D39003248D7 /* StringExt.swift */; };
 		B4D511862A14A40700F7002F /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D511852A14A40700F7002F /* WhatsUpApp.swift */; };
 		B4D511882A14A40700F7002F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D511872A14A40700F7002F /* ContentView.swift */; };
 		B4D5118A2A14A40C00F7002F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D511892A14A40C00F7002F /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B474D7B52A170A82003248D7 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B474D7B82A170D39003248D7 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		B4D511822A14A40700F7002F /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D511852A14A40700F7002F /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
 		B4D511872A14A40700F7002F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B474D7B22A170894003248D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B474D7B52A170A82003248D7 /* SignupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B474D7B72A170D12003248D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B474D7B82A170D39003248D7 /* StringExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B4D511792A14A40700F7002F = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +81,8 @@
 		B4D511842A14A40700F7002F /* WhatsUp */ = {
 			isa = PBXGroup;
 			children = (
+				B474D7B72A170D12003248D7 /* Extensions */,
+				B474D7B22A170894003248D7 /* View */,
 				B4D511852A14A40700F7002F /* WhatsUpApp.swift */,
 				B4D511872A14A40700F7002F /* ContentView.swift */,
 				B4D511892A14A40C00F7002F /* Assets.xcassets */,
@@ -158,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B474D7B62A170A82003248D7 /* SignupView.swift in Sources */,
 				B4D511882A14A40700F7002F /* ContentView.swift in Sources */,
+				B474D7B92A170D39003248D7 /* StringExt.swift in Sources */,
 				B4D511862A14A40700F7002F /* WhatsUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
